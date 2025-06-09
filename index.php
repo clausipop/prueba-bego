@@ -1,0 +1,90 @@
+<?php
+require_once('header.php');
+?>
+
+
+<main>
+    <nav class="contenido-textos segunda-nav">
+        <p class="btn">Upcoming</p>
+        <p class="btn">Completed</p>
+        <p class="btn">Past</p>
+    </nav>
+
+    <section class="separador">
+        <div class="buscador">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+            <input id="inputOrderNumber" class="input-buscador" type="text" placeholder="Escribe el número de orden para filtrar">
+            <div id="sugerencias" class="sugerencias-box"></div>
+        </div>
+    </section>
+
+    <!-- seccion a crear con js -->
+    <div id="divPadre">
+        <!-- <section id="seccionSeparador" class="separador">
+           <p class="contenido-textos"><span class="texto-secundario">Order</span> #7804GNZ</p>
+        </section>
+        <section class="separador">
+            <div id="contenidoContenedor" class="contenedor">
+        
+                <div class="contenedor-fcl alinear-fcl">
+                    <div class="contenedor-fcl">
+                        <img class="padding-fcl" src="assets/img/contenedor.png" alt="">
+                        <p class="contenido-textos padding-fcl">FCL</p>
+                    </div>
+                    <div class="contenedor-fcl">
+                        <div class="punto"></div>
+                        <p class="contenido-textos">In transit</p>
+                    </div>
+                </div>
+        
+                <hr class="separador-contenedor" />
+                <div class="seccion-pedidos">
+        
+                    <div class="seccion-iconos">
+                        <img class="icono" src="assets/img/camion.png" alt="">
+                        <img class="icono" src="assets/img/Background-linea.png" alt="">
+                        <img class="icono" src="assets/img/ubicacion.png" alt="">
+                    </div>
+        
+                    <div class="contenedor-textos icono">
+                        <div class="seccion-textos uno">
+                            <div class="seccion-info contenido-textos">
+                                <p class="texto-s texto-secundario">PICKUP</p>
+                                <p class="texto-lg">New York</p>
+                                <p class="texto-md texto-secundario">25 Mortada Street, Gainalkes</p>
+                            </div>
+                            <div class="contenido-textos fechahora">
+                                <p class="texto-s texto-secundario">01/04/23</p>
+                                <p>10:45</p>
+                            </div>
+                        </div>
+                        <div class="seccion-textos dos">
+                            <div class="seccion-info contenido-textos">
+                                <p class="texto-s texto-secundario">DROPOFF</p>
+                                <p class="texto-lg">New York</p>
+                                <p class="texto-md texto-secundario">1749 NJ-27, Edison, 08817</p>
+                            </div>
+                            <div class="contenido-textos fechahora">
+                                <p class="texto-s texto-secundario">01/04/23</p>
+                                <p>17:30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex">
+                    <button id="btnTimePickup"  class="boton-pickup">It's time for pickup</button>
+                    <button id="btnResume"  class="boton-resume">
+                        Resume
+                        <img src="assets/img/ojo.png" alt="Ver" class="icono-boton" />
+                    </button>
+                </div> 
+    </div>
+    </section> -->
+    </div>
+
+
+   
+</main>
+ <script src="js/main.js"></script>
