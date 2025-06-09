@@ -103,7 +103,7 @@ const obtenerOrdenes = () => {
                 </div>
                 <div class="flex">
                     <button id="btnTimePickup-${orden.order_number}" class="boton-pickup">It's time for pickup</button>
-                     <a <a href="cargoDetails.php?order=${orden.order_number}"  target="_blank" class="boton-resume" data-order-id="${orden.order_number}">
+                     <a <a href="cargoDetails.html?order=${orden.order_number}"  target="_blank" class="boton-resume" data-order-id="${orden.order_number}">
   Resume
   <img src="assets/img/ojo.png" alt="Ver" class="icono-boton" />
 </a>
